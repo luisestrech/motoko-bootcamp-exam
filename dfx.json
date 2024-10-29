@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "dia4_backend": {
+      "main": "src/dia4_backend/main.mo",
+      "type": "motoko"
+    },
+    "dia4_frontend": {
+      "dependencies": [
+        "dia4_backend"
+      ],
+      "source": [
+        "src/dia4_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "dia4_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
