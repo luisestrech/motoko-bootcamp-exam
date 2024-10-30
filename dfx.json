@@ -4,6 +4,17 @@
       "main": "src/dia4_backend/main.mo",
       "type": "motoko"
     },
+    "internet_identity": {
+      "candid": "https://github.com/dfinity/internet-identity/releases/latest/download/internet_identity.did",
+      "frontend": {},
+      "remote": {
+        "id": {
+          "ic": "rdmx6-jaaaa-aaaaa-aaadq-cai"
+        }
+      },
+      "type": "custom",
+      "wasm": "https://github.com/dfinity/internet-identity/releases/latest/download/internet_identity_dev.wasm.gz"
+    },
     "dia4_frontend": {
       "dependencies": [
         "dia4_backend"
